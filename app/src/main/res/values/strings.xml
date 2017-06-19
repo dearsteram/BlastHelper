@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">爆破助手</string>
+    <!-- 侧滑菜单栏    -->
+    <string name="lutianbaopo">露天爆破</string>
+    <string name="juejinbaopo">掘进爆破</string>
+    <string name="chaichubaopo">拆除爆破</string>
+    <string name="tezhongbaopo">特种爆破</string>
+    <string name="yantitexing">岩体特性</string>
+    <string name="baopoqicai">爆破器材</string>
+    <string name="shigongshebei">施工设备</string>
+    <string name="baopoanquan">爆破安全</string>
+    <string name="title_activity_fa_tie">FaTieActivity</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="tap_load_more">点击查看详细内容</string>
+    <string name="tap_load_less">点击查看缩略内容</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hello">下拉可刷新 </string>
+    <string name="refresh_down_text">下拉可刷新</string>
+    <string name="refresh_release_text">松开可刷新</string>
+    <string name="toast_text">ScrollView下拉刷新完毕</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">手机号</string>
+    <string name="prompt_password">密码 </string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">请输入正确的手机号码</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">请输入你的手机号</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="wode">20sp</string>
+</resources>

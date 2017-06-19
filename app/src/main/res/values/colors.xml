@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_blue">#000093</color>\
+    <color name="text_gray">#006000</color>
+    <color name="transparent">#e5e6e7</color>
+    <color name="activitycolor">#eeeeee</color>
+    <color name="red">#dc2f33</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ff5c29</color>
+    <color name="gray">#707070</color>
+    <color name="grey">#d8d8d8</color>
+    <color name="black">#323232</color>
+    <color name="forum_display_item_title_color">#22229C</color>
+    <color name="item_header_color">#E2E7EE</color>
+    <color name="title_header_color">#40567E</color>
+    <color name="title_header_color_dark">#25334B</color>
+    <color name="title_header_color_light">#6E88B6</color>
+    <color name="quick_reply_btn_pressed">#E5E5E5</color>
+    <!-- 60%的透明度 -->
+    <color name="whitebg">#b2ffffff</color>
+    <color name="blackbg">#33323232</color>
+</resources>

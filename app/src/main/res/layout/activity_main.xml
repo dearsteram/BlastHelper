@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.zhongkebochuang.blasthelper.MainActivity">
+    //侧滑
+    <!--xmlns:zhy="http://schemas.android.com/apk/res/com.zhongkebochuang.blasthelper"-->
+    <!--zhy:rightPadding="100dp"-->
+    <RelativeLayout
+            android:id="@+id/tab_title"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:background="@color/black"
+            android:layout_alignParentTop="true"
+            android:gravity="center|center_horizontal"
+            android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/sousuo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/sousuo"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/text_wo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_menu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true">
+
+
+            <TextView
+                android:id="@+id/txt_wenku"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="1dp"
+                android:gravity="center"
+                android:drawableTop="@mipmap/shouyexuanzhong"
+                android:paddingTop="5dp"
+                android:background="@drawable/login_bg"
+                android:text="文库" />
+
+            <TextView
+                android:id="@+id/txt_luntan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="1dp"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:drawableTop="@mipmap/wenkuwei"
+                android:background="@drawable/login_bg"
+                android:text="论坛" />
+
+            <TextView
+                android:id="@+id/txt_geren"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="1dp"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:drawableTop="@mipmap/wode"
+                android:background="@drawable/login_bg"
+                android:text="个人"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/div_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#cccccc"
+            android:layout_above="@id/tab_menu"/>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/demo_swiperefreshlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/tab_title"
+    android:layout_above="@id/tab_menu"
+    android:scrollbars="vertical"  >
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>
+
